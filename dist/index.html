@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../src/styles.css" />
+    <title>The Weather</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="left-right-container">
+        <div class="location-container-left">
+          <div class="sky-condition">Clear</div>
+          <div class="city-name">Los Angeles</div>
+          <!-- <div class="day-date">Thursday, Feb 9th 2023</div> -->
+          <!-- <div class="time">11:24 am</div> -->
+          <div class="todays-temp">75 &#176;F</div>
+          <div class="switch-display">Display &#176;C</div>
+          <!-- <div class="today-icon">☀</div> -->
+          <input class="input" type="text" placeholder="Search Location..." />
+          <button class="btn">Search Location</button>
+        </div>
+        <div class="weather-container-right">
+          <div class="feels-like">Feels Like</div>
+          <div class="feels-like-temp">70 &#176;F</div>
+          <div class="humidity">Humidity</div>
+          <div class="humidity-percent">20%</div>
+          <!-- <div class="chance-of-rain">Chance of Rain</div>
+          <div class="rain-percent">0%</div> -->
+          <div class="wind-speed">Wind Speed</div>
+          <div class="wind-mph">5.1 mph</div>
+        </div>
+      </div>
+      <div class="days-container-bottom">
+        <div class="tab-wrapper">
+          <div class="daily">Daily</div>
+        </div>
+        <div class="btm-row-wrapper">
+          <div class="days"></div>
+          <div class="temps-high"></div>
+          <div class="temps-low"></div>
+          <div class="days-icon"></div>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

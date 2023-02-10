@@ -1,0 +1,117 @@
+* {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: ghostwhite;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: auto;
+  background-image: url('../src/images/sunset.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-container {
+  padding-top: 1.5rem;
+}
+
+.left-right-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+.location-container-left {
+  margin-left: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.sky-condition {
+  font-size: 2rem;
+  padding-bottom: 0.5rem;
+}
+
+.city-name {
+  padding-bottom: 0.5rem;
+}
+
+.todays-temp {
+  padding-top: 0.5rem;
+  font-size: 2rem;
+}
+
+.switch-display {
+  font-size: 1rem;
+}
+
+.today-icon {
+  font-size: 3.5rem;
+}
+
+input {
+  border-radius: 5px;
+  border: none;
+  color: black;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  background-color: rgb(145, 24, 60);
+  width: fit-content;
+  border-radius: 5px;
+  border: 2px solid ghostwhite;
+}
+
+.switch-display:hover,
+.btn:hover {
+  opacity: 0.6;
+}
+
+.weather-container-right {
+  padding-right: 3rem;
+}
+
+.feels-like-temp,
+.humidity-percent,
+.rain-percent,
+.wind-mph {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.days-container-bottom {
+  padding: 2rem;
+  padding-top: 2rem;
+}
+
+.daily {
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid ghostwhite;
+}
+
+.btm-row-wrapper {
+  padding-top: 1rem;
+}
+
+.days,
+.temps-high,
+.temps-low,
+.days-icon {
+  display: flex;
+  justify-content: space-between;
+  justify-items: left;
+  font-size: 2rem;
+}
+
+.temps-low {
+  font-size: 1rem;
+}
+
+.days-icon {
+  font-size: 3rem;
+}
